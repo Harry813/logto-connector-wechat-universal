@@ -1,0 +1,11 @@
+Logto WeChat Universal Connector
+Copyright 2026 Harry813 and contributors
+
+This is an independent community project. It is not affiliated with, maintained by,
+or endorsed by Logto, Silverhand Inc., Tencent, or WeChat.
+
+"Logto", "WeChat", and related names and marks belong to their respective owners.
+They are used only to identify interoperability targets.
+
+The connector interface and implementation patterns are designed for compatibility
+with Logto, which is distributed under the Mozilla Public License 2.0.

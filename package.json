@@ -1,0 +1,43 @@
+{
+  "name": "connector-wechat-universal",
+  "version": "0.1.0-alpha.1",
+  "description": "Unofficial Logto connector for WeChat Official Account H5 and Website QR sign-in with UnionID-only identity linking.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "files": [
+    "lib",
+    "README.md",
+    "README.zh-CN.md",
+    "logo.svg",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": "^22.14.0"
+  },
+  "dependencies": {
+    "zod": "3.24.3"
+  },
+  "keywords": [
+    "logto",
+    "connector",
+    "wechat",
+    "weixin",
+    "oauth",
+    "unionid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harry813/logto-connector-wechat-universal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Harry813/logto-connector-wechat-universal/issues"
+  },
+  "homepage": "https://github.com/Harry813/logto-connector-wechat-universal#readme",
+  "license": "MPL-2.0"
+}
