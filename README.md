@@ -1,10 +1,22 @@
 # Logto WeChat Universal Connector
 
+<p align="center">
+  <a href="https://github.com/Harry813/logto-connector-wechat-universal/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Harry813/logto-connector-wechat-universal/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/Harry813/logto-connector-wechat-universal/blob/main/LICENSE"><img alt="License: MPL-2.0" src="https://img.shields.io/github/license/Harry813/logto-connector-wechat-universal"></a>
+  <a href="https://github.com/Harry813/logto-connector-wechat-universal/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/Harry813/logto-connector-wechat-universal?style=social"></a>
+</p>
+
+<p align="center">
+  If this connector helps you, please consider giving it a <a href="https://github.com/Harry813/logto-connector-wechat-universal/stargazers">Star</a>.
+</p>
+
 [简体中文](./README.zh-CN.md)
 
 An **unofficial and experimental** social connector for self-hosted Logto. It routes sign-in between WeChat Official Account H5 OAuth and WeChat Website Application QR OAuth while using `unionid` as the only Logto social identity ID.
 
 > This project is not affiliated with or endorsed by Logto, Tencent, or WeChat. Do not use it without reviewing the source and validating it in your own environment.
+
+![WeChat sign-in routing and UnionID identity linking](./docs/images/routing.svg)
 
 ## Why this connector exists
 
@@ -80,8 +92,15 @@ Report vulnerabilities according to [`SECURITY.md`](./SECURITY.md).
 The current implementation uses only platform APIs at runtime. Run the tests with Node.js 22.14 or a later Node.js 22 release, matching Logto v1.41.0's connector runtime:
 
 ```bash
+npm ci
 npm test
 ```
+
+## Documentation
+
+- [简体中文安装与配置教程](./README.zh-CN.md)
+- [Official Logto guide: Develop a social connector](https://docs.logto.io/logto-oss/develop-your-connector/step-by-step-guide)
+- [Container image example](./examples/README.md)
 
 ## License
 
